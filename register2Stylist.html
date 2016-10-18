@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Social MEdia Signin</title>
+    <title>Register</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,7 @@
     <!-- Custom styles for this template -->
     <link href="signin.css" rel="stylesheet">
 
-      <link href="Style.css" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -39,14 +39,38 @@
   <body>
 
     <div class="container">
-      <form class="form-signin">
-        <button class="btn btn-primary btn-block" type="submit" id="stylist" >Sign in with your phone</button>
-        <a class="btn btn-block btn-social btn-facebook" id="stylist" >
-        <span class="fa fa-facebook"></span> Sign in with Facebook
-        </a>
-        <a class="btn btn-block btn-social btn-google">
-        <span class="fa fa-google"></span> Sign in with Google
-        </a>
+      <form class="form" id="welcomeform">
+        <center><h1>Stylist</h1></center>
+        <div class="form-group">
+          <label for="usr">Salon Name:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Gender:</label>
+          <input type="text" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="usr">Phone:</label>
+          <input type="email" class="form-control" id="usr">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Occupation:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Open Hours:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="form-group">
+          <label for="pwd">House Calls:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="col-sm-6">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </div>
+      <div class="col-sm-6">
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </div>
       </form>
     </div> <!-- /container -->
 

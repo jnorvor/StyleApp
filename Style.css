@@ -1,0 +1,13 @@
+#stylist {
+    margin-bottom: 10% ! important;
+}
+
+#welcomeform {
+	max-width: 380px;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    left: 0;
+}
